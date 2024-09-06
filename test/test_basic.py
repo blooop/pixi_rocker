@@ -12,11 +12,11 @@ class TestPixiExtension:
         extension = PixiExtension()
         assert extension.name == "pixi"
 
-    def test_register_arguments(self):  
-        parser = argparse.ArgumentParser()  
-        PixiExtension.register_arguments(parser)  
-        args = parser.parse_args([])  
-        assert 'pixi' in vars(args)
+    def test_register_arguments(self):
+        parser = argparse.ArgumentParser()
+        PixiExtension.register_arguments(parser)
+        args = parser.parse_args([])
+        assert "pixi" in vars(args)
 
     # Handling missing template files in get_snippet method
     def test_get_snippet_missing_template(self):
