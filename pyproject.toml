@@ -1,6 +1,6 @@
 [project]
 name = "pixi_rocker"
-version = "0.0.3"
+version = "0.0.4"
 authors = [{ name = "Austin Gregg-Smith", email = "blooop@gmail.com" }]
 description = "A python package template"
 readme = "README.md"
