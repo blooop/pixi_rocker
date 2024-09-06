@@ -28,5 +28,5 @@ pip install pixi-rocker
 To install pixi in a container use the --pixi flag
 
 ```
-rocker --pixi ubuntu:22.04  
+rocker --pixi ubuntu:latest
 ```
