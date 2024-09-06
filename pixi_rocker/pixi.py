@@ -30,6 +30,6 @@ class PixiExtension(RockerExtension):
         parser.add_argument(
             f"--{PixiExtension.get_name()}",
             action="store_true",
-            default=defaults.get("pixi", None),
+            default=defaults.get("pixi"),
             help="add pixi dependency manager to your environment",
         )
