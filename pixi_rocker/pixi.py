@@ -8,7 +8,6 @@ class PixiExtension(RockerExtension):
         return "pixi"
 
     def __init__(self):
-        self._env_subs = None
         self.name = PixiExtension.get_name()
 
     def get_snippet(self, cliargs):
