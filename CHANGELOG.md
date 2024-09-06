@@ -1,6 +1,6 @@
 # Changelog
 
-## python_template
+## pixi_rocker
 
 ## [0.0.0]
 
