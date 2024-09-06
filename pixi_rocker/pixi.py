@@ -18,8 +18,9 @@ class PixiExtension(RockerExtension):
 
     def get_user_snippet(self, cliargs):
         snippet = pkgutil.get_data(
-            "pixi_rocker", f"templates/{self.name}_snippet.Dockerfile"
+            "pixi_rocker", "templates/{}_snippet.Dockerfile".format(self.name)
         ).decode("utf-8")
+        return snippet
         return snippet
 
     @staticmethod
