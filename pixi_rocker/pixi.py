@@ -18,7 +18,6 @@ class PixiExtension(RockerExtension):
             "pixi_rocker", "templates/{}_snippet.Dockerfile".format(self.name)
         ).decode("utf-8")
         return snippet
-        return snippet
 
     @staticmethod
     def register_arguments(parser, defaults=None):
