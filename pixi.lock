@@ -901,9 +901,9 @@ packages:
   - ptyprocess>=0.5
 - kind: pypi
   name: pixi-rocker
-  version: 0.0.1
+  version: 0.0.2
   path: .
-  sha256: 7c7857994065dccc73957976b6970e9bb6756feaa7aa6be149bba313ef67118d
+  sha256: 2a872512f0135a4b3055d2207501997b82ad2d0bc980bf2440c48a72b9b53daa
   requires_dist:
   - rocker>=0.2.17
   - black>=23,<=24.8.0 ; extra == 'test'
