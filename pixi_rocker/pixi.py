@@ -11,10 +11,9 @@ class PixiExtension(RockerExtension):
         self.name = PixiExtension.get_name()
 
     def get_snippet(self, cliargs):
-        snippet = pkgutil.get_data("pixi_rocker", "templates/curl_snippet.Dockerfile").decode(
-            "utf-8"
-        )
-        return snippet
+        return pkgutil.get_data(
+            "pixi_rocker", "templates/curl_snippet.Dockerfile"
+        ).decode("utf-8")
 
     def get_user_snippet(self, cliargs):
         snippet = pkgutil.get_data(
