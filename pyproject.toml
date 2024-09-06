@@ -1,6 +1,6 @@
 [project]
 name = "pixi_rocker"
-version = "0.2.0"
+version = "0.0.1"
 authors = [{ name = "Austin Gregg-Smith", email = "blooop@gmail.com" }]
 description = "A python package template"
 readme = "README.md"
@@ -51,6 +51,9 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build]
 include= ["pixi_rocker"]
+
+[project.entry-points."rocker.extensions"]
+pixi = "pixi_rocker.pixi:PixiExtension"
 
 # Environments
 [tool.pixi.environments]
