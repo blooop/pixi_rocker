@@ -4,6 +4,7 @@ version = "0.0.6"
 authors = [{ name = "Austin Gregg-Smith", email = "blooop@gmail.com" }]
 description = "A rocker extension for installing pixi in a container"
 readme = "README.md"
+license = "MIT"
 
 dependencies = ["rocker>=0.2.17"]
 
