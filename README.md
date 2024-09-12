@@ -24,6 +24,8 @@ The most common question I get is is why would you need to use pixi in docker as
 
 Another benefit of pixi in docker is that you are more isolated from your host machine and have more flexibillty to make changes withour worrying about conflicting with other projects. 
 
+If you use vscode to attached to your development container it makes it easier to set up specific extensions for each project that don't need to be installed globally. 
+
 ## Installation
 
 ```
@@ -35,5 +37,5 @@ pip install pixi-rocker
 To install pixi in a container use the --pixi flag
 
 ```
-rocker --pixi ubuntu:latest
+rocker --pixi ubuntu:22.04
 ```
