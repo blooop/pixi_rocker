@@ -20,11 +20,11 @@ This is a [rocker](https://github.com/tfoote/rocker) extension for adding [pixi]
 
 ### But Why??
 
-The most common question I get is is why would you need to use pixi in docker as pixi is already taking care of your environment for you.  Unfortunatly there are some packages/configuation that pixi is not able to handle yet and so one way of handling that is managing those dependencies/configuration in docker and leave the the rest up to pixi. 
+The most common question I get is is why would you need to use pixi in docker as pixi is already taking care of your environment for you.  Unfortunately there are some packages/configuration that pixi is not able to handle yet and so one way of handling that is managing those dependencies/configuration in docker and leave the the rest up to pixi. 
 
-Another benefit of pixi in docker is that you are more isolated from your host machine and have more flexibillty to make changes withour worrying about conflicting with other projects. 
+Another benefit of pixi in docker is that you are more isolated from your host machine and have more flexibility to make changes without worrying about conflicting with other projects. 
 
-If you use vscode to attached to your development container it makes it easier to set up specific extensions for each project that don't need to be installed globally. 
+If you use vscode to attach to your development container it makes it easier to set up specific extensions for each project that don't need to be installed globally. 
 
 ## Installation
 
