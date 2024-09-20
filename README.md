@@ -17,7 +17,7 @@
 
 This is a [rocker](https://github.com/tfoote/rocker) extension for adding [pixi](https://pixi.sh) to an existing docker image.  Look at the [rocker](https://github.com/osrf/rocker) github page for more context of how [rocker](https://github.com/osrf/rocker) and [rocker](https://github.com/osrf/rocker) extensions work, but in a nutshell rocker lets you add custom capabilities to existing docker containers.  Rocker extensions   
 
-[Pixi](https://github.com/prefix-dev/pixi) is a cross-platform package manager based on the conda ecosystem.  It provides a simple and performant way of reproducing a development environment and running user defined tasks and worflows.  It more lightweight than docker, but does not provide the same level of isolation or generality. 
+[Pixi](https://github.com/prefix-dev/pixi) is a cross-platform package manager based on the conda ecosystem.  It provides a simple and performant way of reproducing a development environment and running user defined tasks and workflows.  It is more lightweight than docker, but does not provide the same level of isolation or generality. 
 
 ### But Why??
 
