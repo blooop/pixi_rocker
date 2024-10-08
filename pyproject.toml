@@ -1,6 +1,6 @@
 [project]
 name = "pixi_rocker"
-version = "0.0.8"
+version = "0.0.9"
 authors = [{ name = "Austin Gregg-Smith", email = "blooop@gmail.com" }]
 description = "A rocker extension for adding the pixi package manager an existing docker image"
 readme = "README.md"
