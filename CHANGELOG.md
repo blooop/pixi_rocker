@@ -1,6 +1,6 @@
 # Changelog
 
-## template_rocker
+## pixi_rocker
 
 ## [0.0.0]
 
